@@ -1,1 +1,1 @@
-Sitemap: https://www.dylan-lecomte.fr/sitemap.xml
+Sitemap: http://www.dylan-lecomte.fr/sitemap.xml
