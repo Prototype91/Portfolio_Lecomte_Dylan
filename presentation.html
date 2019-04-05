@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Portfolio - Lecomte Dylan - Page d'accueil</title>
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <nav class="tmp-menu" data-state="closed">
+
+        <a href="index.html" class="home-link">Dylan Lecomte</a>
+
+        <div class="site-links">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="index.html">Accueil</a>
+            <a href="presentation.html" class="active">Présentation</a>
+            <a href="competences.html">Compétences</a>
+            <a href="projet.html">Projets</a>
+            <a href="pdf/cv.pdf">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </nav>
+
+    <main class="tmp-main home">
+
+        <header>
+
+            <div class="image">
+                <img src="images/index/photo de profile.jpg" alt="Avatar de Dylan Lecomte" class="img-responsive" height="500px">
+            </div>
+            
+            <div class="text">
+                <h1 class="tmp-title1">Dylan Lecomte</h1>
+                <p>
+                    19 ans <span class="picto-location"></span> Paris, Île de France<br>
+                    Étudiant en deuxième année à L’École Multimédia<br>
+                    Développeur front-end <br>
+                    Recherche un poste en alternance avec un contrat de professionnalisation dès septembre 2019 <br>
+                    Durée : 1 an <br>
+                    Rythme : 3 semaines en entreprise et 1 semaine en cours
+                </p>
+                <div class="buttons">
+                    <a href="pdf/cv.pdf" class="tmp-btn">Télécharger mon CV</a>
+                    <br>
+                    <a href="contact.html" class="tmp-btn">Me contacter</a>
+                </div>
+            </div>
+
+        </header>
+
+        <nav class="headings">
+
+            <a href="presentation.html">
+                <img src="images/index/presentation.svg" alt="Pictogramme représentant une carte d'identité">
+                <h2>Présentation</h2>
+                <p>Mes renseignements personnels, mon parcours scolaire, mes passions et mes hobbies</p>
+            </a>
+            <a href="competences.html">
+                <img src="images/index/skills.svg" alt="Pictogramme représentant une carte d'identité">
+                <h2>Compétences</h2>
+                <p>La liste de mes compétences notamment en programation et en développement</p>
+            </a>
+            <a href="projet.html">
+                <img src="images/index/projects.svg" alt="Pictogramme représentant une carte d'identité">
+                <h2>Projets</h2>
+                <p>Les projets réalisés à l’école et en stage ainsi que mes réalisations personnelles</p>
+            </a>
+
+        </nav>
+
+        <section class="last-projects">
+
+            <h2 class="tmp-title2">Mes derniers projets</h2>
+
+            <p>Voici mes 3 dernier projets réalisés cette année :</p>
+
+            <div class="projects">
+
+                    <a href="https://github.com/Prototype91/Super_Mario_Leap" class="project">
+                        <img src="images/projets/mario.jpg" alt="Photo du projet ???" class="img-responsive">
+                        <div class="text">
+                            <h3>Super Mario Leap</h3>
+                            <span>Mars 2019</span>
+                            <p>Création d'un jeu de plateforme Mario en JavaScript avec les frameworks phaser et leapjs. <br>
+                            Ce jeu est jouable avec un Leap Motion Device.</p>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Prototype91/Star_Wars_GL" class="project">
+                        <img src="images/projets/accueil.jpg" alt="Photo du projet ???" class="img-responsive">
+                        <div class="text">
+                            <h3>Star Wars GL</h3>
+                            <span>Février 2019</span>
+                            <p>Jeu 3D en JavaScript avec la bibliothèque three.js. <br>
+                            Le vaisseau a été modélisé sur Cinema4D et intégré dans le navigateur.</p>
+                        </div>
+                    </a>
+                
+                <a href="https://github.com/Prototype91/Super_Mario_2.0" class="project">
+                    <img src="images/projets/text.jpg" alt="Photo du projet ???" class="img-responsive">
+                    <div class="text">
+                        <h3>Super Mario 2.0</h3>
+                        <span>Décembre 2018</span>
+                        <p>Création d'un jeu textuel Mario en Javascript avec l'utilisation de différents packages npm pour y intégrer des "graphismes".</p>
+                    </div>
+                </a>
+            
+                    
+            </div>
+
+            <a href="projet.html" class="tmp-btn">Voir tous mes projets</a>
+
+        </section>
+
+    </main>
+
+    <footer class="tmp-footer">
+
+        <section class="contact">
+            <h1>Dylan Lecomte</h1>
+            <a href="mailto:lecomtedylan@rocketmail.com">lecomtedylan@rocketmail.com</a><br>
+            <a href="tel:+33680789262">06 80 78 92 62</a><br>
+            <a href="https://www.linkedin.com/in/dylanlecomte09/">Suivez-moi sur <strong>Linkedin</strong></a><br>
+            <a href="https://github.com/Prototype91">Suivez-moi sur <strong>Github</strong></a>
+        </section>
+
+        <nav class="menu">
+            <h2>Menu</h2>
+            <div class="links">
+                <a href="index.html">Accueil</a><br>
+                <a href="presentation.html">Présentation</a><br>
+                <a href="competences.html">Compétences</a><br>
+                <a href="projet.html">Projets</a><br>
+                <a href="pdf/cv.pdf">CV</a><br>
+                <a href="contact.html">Contact</a><br>
+                <a href="">Mentions légales</a>
+            </div>
+        </nav>
+
+    </footer>
+    
+    <!-- Script de la bascule du menu -->
+    <script src="scripts/menu.js"></script>
+
+</body>
+</html>
