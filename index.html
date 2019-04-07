@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <link rel="shortcut icon" href="images/favico.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="Page d'accueil du site portfolio de Dylan Lecomte, élève en développement Front-End à l'École Multimédia de Paris">
     <title>Portfolio - Lecomte Dylan - Page d'accueil</title>
     <link rel="stylesheet" href="css/template.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
 
     <nav class="tmp-menu" data-state="closed">
@@ -35,9 +39,10 @@
         <header>
 
             <div class="image">
-                <img src="images/index/photo de profile.jpg" alt="Avatar de Dylan Lecomte" class="img-responsive" height="500px">
+                <img src="images/index/photo de profile.jpg" alt="Avatar de Dylan Lecomte" class="img-responsive"
+                    height="500px">
             </div>
-            
+
             <div class="text">
                 <h1 class="tmp-title1">Dylan Lecomte</h1>
                 <p>
@@ -85,36 +90,38 @@
 
             <div class="projects">
 
-                    <a href="https://github.com/Prototype91/Super_Mario_Leap" class="project">
-                        <img src="images/projets/mario.jpg" alt="Photo du projet ???" class="img-responsive">
-                        <div class="text">
-                            <h3>Super Mario Leap</h3>
-                            <span>Mars 2019</span>
-                            <p>Création d'un jeu de plateforme Mario en JavaScript avec les frameworks phaser et leapjs. <br>
+                <a href="https://github.com/Prototype91/Super_Mario_Leap" class="project">
+                    <img src="images/projets/mario.jpg" alt="Photo du projet ???" class="img-responsive">
+                    <div class="text">
+                        <h3>Super Mario Leap</h3>
+                        <span>Mars 2019</span>
+                        <p>Création d'un jeu de plateforme Mario en JavaScript avec les frameworks phaser et leapjs.
+                            <br>
                             Ce jeu est jouable avec un Leap Motion Device.</p>
-                        </div>
-                    </a>
+                    </div>
+                </a>
 
-                    <a href="https://github.com/Prototype91/Star_Wars_GL" class="project">
-                        <img src="images/projets/accueil.jpg" alt="Photo du projet ???" class="img-responsive">
-                        <div class="text">
-                            <h3>Star Wars GL</h3>
-                            <span>Février 2019</span>
-                            <p>Jeu 3D en JavaScript avec la bibliothèque three.js. <br>
+                <a href="https://github.com/Prototype91/Star_Wars_GL" class="project">
+                    <img src="images/projets/accueil.jpg" alt="Photo du projet ???" class="img-responsive">
+                    <div class="text">
+                        <h3>Star Wars GL</h3>
+                        <span>Février 2019</span>
+                        <p>Jeu 3D en JavaScript avec la bibliothèque three.js. <br>
                             Le vaisseau a été modélisé sur Cinema4D et intégré dans le navigateur.</p>
-                        </div>
-                    </a>
-                
+                    </div>
+                </a>
+
                 <a href="https://github.com/Prototype91/Super_Mario_2.0" class="project">
                     <img src="images/projets/text.jpg" alt="Photo du projet ???" class="img-responsive">
                     <div class="text">
                         <h3>Super Mario 2.0</h3>
                         <span>Décembre 2018</span>
-                        <p>Création d'un jeu textuel Mario en Javascript avec l'utilisation de différents packages npm pour y intégrer des "graphismes".</p>
+                        <p>Création d'un jeu textuel Mario en Javascript avec l'utilisation de différents packages npm
+                            pour y intégrer des "graphismes".</p>
                     </div>
                 </a>
-            
-                    
+
+
             </div>
 
             <a href="projet.html" class="tmp-btn">Voir tous mes projets</a>
@@ -147,9 +154,20 @@
         </nav>
 
     </footer>
-    
+
     <!-- Script de la bascule du menu -->
     <script src="scripts/menu.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137871701-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137871701-1');
+    </script>
+
 </body>
+
 </html>
